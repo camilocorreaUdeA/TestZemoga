@@ -83,6 +83,19 @@ Along with this README file you can find:
     <br>As understood from the graphical description in the requirement, black and white colors in the pixels are changed for the colors described in the input options. The color change operation visits all 3-octect pixels in the image, checks whether the pixel is black or white according to a pre-fixed color threshold. Then the blue, green and red octects values are changed to the new values captured in the input options. In images without an abrupt contrast between black and white pixels, say grey-scale images, this color change operation tends to shrink white regions while stretching black regions.</li>
 </ul>
 
+## Links to information and code examples consulted:
+
+https://solarianprogrammer.com/2018/11/19/cpp-reading-writing-bmp-images/
+https://stackoverflow.com/questions/2654480/writing-bmp-image-in-pure-c-c-without-other-libraries
+https://web.archive.org/web/20080912171714/http://www.fortunecity.com/skyscraper/windows/364/bmpffrmt.html
+https://stackoverflow.com/questions/22112412/reading-bmp-file-c-trouble-with-reading-bmp-header?rq=1
+https://en.wikipedia.org/wiki/BMP_file_format
+http://www.cplusplus.com/reference/istream/istream/seekg/
+http://www.cplusplus.com/reference/algorithm/swap_ranges/
+http://www.cplusplus.com/reference/algorithm/reverse/
+http://www.cplusplus.com/reference/cstdlib/strtoul/
+http://www.cplusplus.com/articles/DEN36Up4/
+
 
   
   
