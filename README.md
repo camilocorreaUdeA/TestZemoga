@@ -15,6 +15,7 @@ Along with this README file you can find:
   <li>CMake - Any version able to support modern C++ standards (11, 14, 17)</li>
   <li>Ninja - a small build system with a focus on speed</li>
   <li>GCC - GNU C/C++ compiler, any version able to support modern C++ standards (11, 14, 17)</li>
+  <li>Make sure the compiler executable is included in the system PATH ({CC} = gcc, {CXX} = g++)</li>
 </ul>
   
  ## Steps for cross-compilation:
@@ -23,14 +24,14 @@ Along with this README file you can find:
   <li>Clone this repository and save it in a folder of your preference</li>
   <li>Navigate to TestZemogaApp_ directory and add a new directory, call it "build"</li>
   <li>Enter build directory and execute the following CMake command to compile the project:
-    <br>cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCXX_STAND=14 -G Ninja .. </li>
+    <br>cmake -DCMAKE_BUILD_TYPE=Debug -DCXX_STAND=14 -G Ninja .. </li>
   <li>Build the app solution using the following command:
-    <br>cmake.exe --build . --target all -- -j 2 </li>
+    <br>cmake --build . --target all -- -j 2 </li>
   <li>Navigate to TestZemogaTests_ directory and add a new directory, call it "build"</li>
   <li>Enter build directory and execute the following CMake command to compile the project:
-    <br>cmake.exe -DCMAKE_BUILD_TYPE=Debug -G Ninja .. </li>
+    <br>cmake -DCMAKE_BUILD_TYPE=Debug -G Ninja .. </li>
   <li>Build the test solution using the following command:
-    <br>cmake.exe --build . --target all -- -j 2 </li>
+    <br>cmake --build . --target all -- -j 2 </li>
  </ol>
  
  ## Running the app and test solutions:
