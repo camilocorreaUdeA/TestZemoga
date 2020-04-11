@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.12)
-project(TestZemogaBmpLib VERSION 1.0.0)
+cmake_minimum_required(VERSION 2.8)
+project(TestZemogaBmpLib)
 
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp) # Library source files
 file(GLOB HEADER_FILES ${CMAKE_CURRENT_SOURCE_DIR}/inc/*.h) # Library header files
