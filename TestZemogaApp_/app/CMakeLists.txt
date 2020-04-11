@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.12)
-project(TestZemogaConsoleApp VERSION 1.0.0)
+cmake_minimum_required(VERSION 2.8)
+project(TestZemogaConsoleApp)
 
 add_executable(TestZemogaConsoleApp app.cpp) # Create an executable for the app
 
